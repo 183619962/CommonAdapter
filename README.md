@@ -47,6 +47,7 @@
 
 #####2.指定一个参数，相同的高宽
 - ImageFetcher imageFetcher=ImageFetcher.getInstance(Context context, int imageThumSize,String imageCacheDir,float memCacheSize);
+
 ###### 参数解释
  1. content  上下文对象  如：MainActivity.this
  2. imageThumSize  图片处理的size 如：100（实际是高=宽=100）
