@@ -39,7 +39,7 @@
  2.	imageWidth  图片处理的宽度 如：100
  3.	imageHeight 图片处理的高度 如：100
  4.	imageCacheDir 图片缓存的文件夹名称 如：‘MyImagecache’
- 5.memCacheSize 缓存区间的大小 如：0.25f 表示磁盘大小的25%
+ 5. memCacheSize 缓存区间的大小 如：0.25f 表示磁盘大小的25%
 
 
 
@@ -47,11 +47,11 @@
 
 #####2.指定一个参数，相同的高宽
 - ImageFetcher imageFetcher=ImageFetcher.getInstance(Context context, int imageThumSize,String imageCacheDir,float memCacheSize);
-- 参数解释
- ######1.content  上下文对象  如：MainActivity.this
- ######2.imageThumSize  图片处理的size 如：100（实际是高=宽=100）
- ######3.imageCacheDir 图片缓存的文件夹名称 如：‘MyImagecache’
- ######4.memCacheSize 缓存区间的大小 如：0.25f 表示磁盘大小的25%
+###### 参数解释
+ 1. content  上下文对象  如：MainActivity.this
+ 2. imageThumSize  图片处理的size 如：100（实际是高=宽=100）
+ 3. imageCacheDir 图片缓存的文件夹名称 如：‘MyImagecache’
+ 4. memCacheSize 缓存区间的大小 如：0.25f 表示磁盘大小的25%
 
 
 **加载图片**
